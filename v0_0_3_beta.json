@@ -1,0 +1,79 @@
+{
+  "version": "v0.0.3 Beta",
+  "date": "May 13, 2025",
+  "latest": true,
+  "sections": {
+    "bugs": {
+      "en": [
+        "Fixed \"Unknown interaction\" error in sell command modal",
+        "Fixed case sensitivity issue in card search (now works with any capitalization)",
+        "Fixed inventory display not showing new rarities",
+        "Fixed admin dashboard inventory view to properly display all rarities",
+        "Fixed cooldown messages showing previous card images",
+        "Fixed issue where other users could interact with command buttons",
+        "Fixed error handling in card selling process"
+      ],
+      "pt": [
+        "Corrigido erro \"Interação desconhecida\" no modal do comando de venda",
+        "Corrigido problema de sensibilidade a maiúsculas/minúsculas na busca de cartas (agora funciona com qualquer capitalização)",
+        "Corrigida exibição de inventário que não mostrava novas raridades",
+        "Corrigida visualização de inventário no painel de administração para exibir corretamente todas as raridades",
+        "Corrigidas mensagens de tempo de espera que mostravam imagens de cartas anteriores",
+        "Corrigido problema onde outros usuários podiam interagir com botões de comando",
+        "Corrigido tratamento de erros no processo de venda de cartas"
+      ]
+    },
+    "removals": {
+      "en": [
+        "Removed private responses for card sales (all sales are now public)",
+        "Removed redundant code in card rarity detection"
+      ],
+      "pt": [
+        "Removidas respostas privadas para vendas de cartas (todas as vendas agora são públicas)",
+        "Removido código redundante na detecção de raridade de cartas"
+      ]
+    },
+    "additions": {
+      "en": [
+        "Added new card rarities: Wonder (40k), Sistempower (15k), Carousel (10k), Egoist (30k)",
+        "Added 23 new cards across all rarities",
+        "Added public card sale announcements with detailed information",
+        "Added card rarity information to sale announcements",
+        "Added support for multiple cards in the same position in escalation",
+        "Added verification to prevent duplicate cards in escalation",
+        "Added improved user feedback for escalation management",
+        "Added colored emojis for all rarities in inventory display",
+        "Added better error messages for card interactions"
+      ],
+      "pt": [
+        "Adicionadas novas raridades de cartas: Wonder (40k), Sistempower (15k), Carousel (10k), Egoist (30k)",
+        "Adicionadas 23 novas cartas em todas as raridades",
+        "Adicionados anúncios públicos de venda de cartas com informações detalhadas",
+        "Adicionadas informações de raridade de cartas aos anúncios de venda",
+        "Adicionado suporte para múltiplas cartas na mesma posição na escalação",
+        "Adicionada verificação para evitar cartas duplicadas na escalação",
+        "Adicionado feedback aprimorado para o usuário na gestão de escalação",
+        "Adicionados emojis coloridos para todas as raridades na exibição do inventário",
+        "Adicionado melhores mensagens de erro para interações com cartas"
+      ]
+    },
+    "improvements": {
+      "en": [
+        "Improved database queries to be case-insensitive",
+        "Improved error messages to include username in public responses",
+        "Improved VIP pack system with new rarities and balanced chances",
+        "Improved visual display of cards in inventory by rarity",
+        "Improved escalation system to support multiple cards in same position",
+        "Improved user experience by preventing other users from interacting with buttons"
+      ],
+      "pt": [
+        "Melhoradas consultas de banco de dados para serem insensíveis a maiúsculas e minúsculas",
+        "Melhoradas mensagens de erro para incluir nome de usuário em respostas públicas",
+        "Melhorado sistema de pacotes VIP com novas raridades e chances balanceadas",
+        "Melhorada exibição visual de cartas no inventário por raridade",
+        "Melhorado sistema de escalação para suportar múltiplas cartas na mesma posição",
+        "Melhorada experiência do usuário impedindo que outros usuários interajam com botões"
+      ]
+    }
+  }
+}
